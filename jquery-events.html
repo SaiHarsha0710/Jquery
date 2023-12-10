@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Selectors in jQuery
+        </title>
+        
+        <style>
+            #uniqueId {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="uniqueId">Selectors in jQuery</h2>
+        <h2>Other Heading</h2>
+        <h2>Another Heading</h2>
+        <button id="btn1">Click me</button>
+        
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+
+            $("button").onclick(fn1);
+            function fn1() {
+            $("#uniqueId").fadeToggle();
+        }
+
+        })
+        
+
+    </script>
+</html>
