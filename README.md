@@ -1,1 +1,1 @@
-# Pratice
+# Pratice to learn JQuery
